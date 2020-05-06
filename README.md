@@ -11,20 +11,12 @@ Avila bible is one of the largest and most spectacular codices in the Spanish Na
 
 ## Data Description
 
-Columns:
+The Avila data set has been extracted from 800 images of the the "Avila Bible", a giant Latin copy of the whole Bible produced during the XII century between Italy and Spain.  
+The palaeographic analysis of the  manuscript has  individuated the presence of 12 copyists. The pages written by each copyist are not equally numerous. 
+Each pattern contains 10 features and corresponds to a group of 4 consecutive rows.
 
-    F1: intercolumnar distance
-    F2: upper margin
-    F3: lower margin
-    F4: exploitation
-    F5: row number
-    F6: modular ratio
-    F7: interlinear spacing
-    F8: weight
-    F9: peak number
-    F10: modular ratio/ interlinear spacing
-
-scribe: Marcus, Clarius, Philippus, Coronavirucus, Mongucus, Paithonius, Ubuntius, Esequlius
+The prediction task consists in associating each pattern to one of the 12 copyists (labeled as:  Marcus, Clarius, Philippus, Coronavirucus, Mongucus, Paithonius, Ubuntius, Esequlius).
+The data have has been normalized, by using the Z-normalization method, and divided in two data sets: a training set and a test set.
 
 ## Getting Started
 
@@ -48,4 +40,11 @@ Upon completion, add your deliverables to git. Then commit git and push your bra
 
 ## Resources
 
-:warning: **PENDING** :warning:
+https://apila-bible.herokuapp.com/
+
+##Citation
+
+If you want to refer to the Avila data set in a publication, please cite the following paper:
+
+C. De Stefano, M. Maniaci, F. Fontanella, A. Scotto di Freca,
+Reliable writer identification in medieval manuscripts through page layout features: The "Avila" Bible case, Engineering Applications of Artificial Intelligence, Volume 72, 2018, pp. 99-110.
