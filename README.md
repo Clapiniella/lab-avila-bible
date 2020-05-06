@@ -42,7 +42,7 @@ Upon completion, add your deliverables to git. Then commit git and push your bra
 
 https://apila-bible.herokuapp.com/
 
-##Citation
+## Citation
 
 If you want to refer to the Avila data set in a publication, please cite the following paper:
 
